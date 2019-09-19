@@ -1,0 +1,14 @@
+
+body{
+  text-align: center;
+}
+
+
+/* Navigation Bar */
+
+
+.nav-link{
+  padding-right: 70%;
+  margin-right: 16px;
+  font-size: 1rem;
+}
