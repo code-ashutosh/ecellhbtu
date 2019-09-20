@@ -3,6 +3,10 @@ body{
   text-align: center;
 }
 
+.container-fluid{
+  background-color: #595775;
+}
+
 
 /* Navigation Bar */
 
@@ -21,4 +25,22 @@ body{
 
 .nav-link:hover{
   color: #BE9063;
+}
+
+/* title headings */
+
+
+.title_headings{
+  color: #fff;
+  padding: 200px 250px 300px;
+}
+
+.titles{
+    font-size: 4rem;
+}
+
+/* vision */
+
+#vision{
+  padding: 150px 200px 200px;
 }
