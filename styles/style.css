@@ -44,3 +44,30 @@ body{
 #vision{
   padding: 150px 200px 200px;
 }
+/* initiatives section */
+#initiatives{
+}
+.section{
+/* min-height: 100%; */
+}
+.center-align{
+  text-align: center;
+}
+.shadow-card-btn{
+  border-radius: 10px;
+}
+.shadow-card{
+  display:inline-block;
+  width:300px;
+  height:400px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.shadow-card-title{
+  min-height: 25%;
+  font-size:28px;
+ /* padding-bottom: 15px; */
+  display:block;
+}
