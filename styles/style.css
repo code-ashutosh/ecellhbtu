@@ -71,3 +71,36 @@ body{
  /* padding-bottom: 15px; */
   display:block;
 }
+/*Upcoming events*/
+.ue-preview
+{
+  width: auto;
+  padding: 5%;
+  margin: 5%;
+  margin-bottom: 10%;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ue-preview:hover{
+  background-color:black;
+  
+}
+.ue-image
+{
+  display: block;
+  width: 70%;
+  border-radius: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ue-title
+{
+  text-align: center;
+  margin-top: 1rem;
+}
+.ue-title:hover
+{ 
+  color:skyblue;
+  font-size:0.96rem; 
+  text-decoration:none; 
+}
