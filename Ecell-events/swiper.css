@@ -1,0 +1,33 @@
+body {
+      background: black;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+.swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+.swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+      background:#fff; 
+ }
+ .img-privew{
+  width:auto;
+  height:100%;
+
+ }
+ .details
+ {
+  
+  font-family:cursive;
+  color: gray;
+  text-align:center;
+  text-decoration-style:none;   
+ }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>3-d carousel </title>
+
+	<link rel="stylesheet" type="text/css" href="swiper.min.css">
+		<link rel="stylesheet" type="text/css" href="swiper.css">
+
+</head>
+<body>
+<!--3d carousel-->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+      	<a href="#"><div class="img-privew">
+      		<img src="event/evt1.jpg" height="100%" width="100%">
+      		</div>
+      		<div class="details">
+      			<h2 class="text-center  text-muted ">E-summit</h2>
+      		</div></a>
+      </div>
+      <div class="swiper-slide">
+      	<a href="#"><div class="img-privew">
+      		<img src="event/evt2.jpg" width="100%" height="100%">
+      		</div>
+      		<div class="details">
+      			<h2>One-Day Presentation</h2>
+      		</div></a>
+      </div>
+      <div class="swiper-slide">
+      	<a href="#"><div class="img-privew">
+      		<img src="event/evt3.jpg" height="100%" width="100%">
+      		</div>
+      		<div class="details">
+      			<h2>Pivot</h2>
+      		</div></a>
+      </div>
+      <div class="swiper-slide">
+      	<a href="#"><div class="img-privew">
+      		<img src="event/evt4.jpg" width="100%" height="100%">
+      		</div>
+      		<div class="details">
+      			<h2>Pubg moblie live</h2>
+      		</div></a>
+      </div>
+      <div class="swiper-slide">
+      	<a href="#"><div class="img-privew">
+      		<img src="event/evt5.jpg" width="100%" height="100%">
+      		</div>
+      		<div class="details">
+      			<h2>Workshop</h2>
+      		</div></a>
+      </div>
+      <div class="swiper-slide">
+      	<a href="#"><div class="img-privew" width="100%" height="100%">
+      		<img src="event/evt6.jpg">
+      		</div>
+      		<div class="details">
+      			<h2>Pitching</h2>
+      		</div></a>
+      </div>
+        
+</div>
+<!-- Add Pagination -->
+
+<div class="swiper-pagination"></div>
+      </div>  
+<!--java script-->
+<script type="text/javascript" src="swiper.min.js"></script> 
+      <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+
+
+<script type="text/javascript" src="swiper.js"></script>
+</body>
+</html>
